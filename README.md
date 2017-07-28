@@ -10,7 +10,7 @@ When a user completes a design, the pertinent information is passed to PayPal by
 
 There's plenty of room for improvement in terms of configuration, patterns, automation, testing, and overall refactoring.  I did the best I could committing this project in it's original condition; save for adding dependency management and adjusting some formatting.
 
-With that being said- this project.  I am no longer maintaining this repo.  I have since moved onto other things.
+With that being said- this project is dead.  I am no longer maintaining this repo.  I have since moved onto other things.
 
 ## Installation and Requirements
 
@@ -38,9 +38,9 @@ I recall finding and downloading fonts from [Font Squirrel](https://www.fontsqui
 Once you've downloaded them- place them in the ```./scripts/dump-fonts/``` directory and visit this script in your web browser:
 > `https://[your website]/scripts/create.images.php`.
 
-This will create sample images using the fonts in the ```dump-fonts``` directory and then move them to the `./images` directory.
+This will create sample images using the fonts from the ```dump-fonts``` directory and then move them to the `./images/` directory.
 
-You'll also need to create the web fonts.  Generate them here at [Font Squirrel's Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator) using your `.ttf` files.  Place the newly generated `.eot`, `.svg`, and `.ttf` files into the `./fonts/[custom category]` directory accompanied by the `.css` file created.
+You'll also need to create the web fonts.  Generate them here at [Font Squirrel's Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator) using your `.ttf` files.  Place the newly generated `.eot`, `.svg`, `.ttf`, and `.css` files into the `./fonts/[custom category]` directory.
 
 Lastly, I added configurations for the following options in ```./scripts/config.php```.
 
