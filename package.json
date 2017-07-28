@@ -1,0 +1,21 @@
+{
+  "name": "font-previewer",
+  "description": "I developed this application for people who create and sell wall-text decorations. The user can customize their colors, fonts, styles, dimensions, and message dynamically.",
+  "version": "1.0.0",
+  "author": "Mike Petruniak <mike.petruniak@gmail.com>",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-css-url-adjuster": "^0.2.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "run-sequence": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=8.1.2"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "font-previewer",
+  "authors": [
+    {
+      "name": "Mike Petruniak",
+      "email": "mike.petruniak@gmail.com"
+    }
+  ],
+  "description": "I developed this application for people who create and sell wall-text decorations. The user can customize their colors, fonts, styles, dimensions, and message dynamically.",
+  "license": "MIT",
+  "disable-tls": "true",
+  "require": {
+    "php": ">=5.3",
+    "francodacosta/phmagick": "0.4.*-dev"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/francodacosta/phmagick.git"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "font_previewer": "src/font_previewer"
+    }
+  }
+}

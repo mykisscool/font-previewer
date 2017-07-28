@@ -1,0 +1,14 @@
+bower_components
+build
+dist
+node_modules
+vendor
+fonts/*
+!fonts/.gitignore
+images/*
+!images/align*
+!images/screen-*.png
+!images/transparent-background.gif
+scripts/dump-fonts/*
+!scripts/dump-fonts/.gitignore
+.DS_Store

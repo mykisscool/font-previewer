@@ -1,0 +1,14 @@
+{
+  "name": "font-previewer",
+  "version": "1.0.0",
+  "authors": [
+    "Mike Petruniak <mike.petruniak@gmail.com>"
+  ],
+  "description": "I developed this application for people who create and sell wall-text decorations. The user can customize their colors, fonts, styles, dimensions, and message dynamically.",
+  "dependencies": {
+    "farbtastic": "https://github.com/mattfarina/farbtastic.git#4bb6bbf49b02940cf8e278ce54a70d299852b7b7",
+    "jquery-ui": "https://github.com/jquery/jquery-ui.git#28d3e860989a123652b008f5f4cd12fab85b611a",
+    "jqueryui": "https://github.com/components/jqueryui.git#d0071c6142a5e82d3e3c271a5c6d56db18461749",
+    "Modernizr": "https://github.com/Modernizr/Modernizr.git#87c723720a48254ae37ffd56829e32a96f5c5496"
+  }
+}

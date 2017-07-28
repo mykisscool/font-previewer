@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3560b705a533c1a3d92642966980df41",
+    "packages": [
+        {
+            "name": "francodacosta/phMagick",
+            "version": "0.4.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/francodacosta/phmagick.git",
+                "reference": "de24a768083a5efd922814fa855eee32bc1fab82"
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "phmagick.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nuno Costa",
+                    "email": "nuno@francodacosta.com",
+                    "homepage": "http://www.francodacosta.com"
+                },
+                {
+                    "name": "Dustin Thomson",
+                    "email": "dthomson@51systems.com",
+                    "homepage": "http://www.51systems.com"
+                }
+            ],
+            "description": "image manipulation with php and ImageMagick",
+            "homepage": "http://www.phmagick.org",
+            "keywords": [
+                "Image manipulation",
+                "ImageMagick",
+                "gd",
+                "image resize",
+                "imagemagick",
+                "imagick",
+                "resize",
+                "thumbnail"
+            ],
+            "time": "2013-09-23 12:47:11"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "francodacosta/phmagick": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3"
+    },
+    "platform-dev": []
+}
