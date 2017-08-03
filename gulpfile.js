@@ -183,13 +183,16 @@ gulp.task('default', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch('./css/styles.css', [
-    ['minify-font-previewer-css'],
-    ['concat-all-css']
-  ]);
-
-  gulp.watch('./js/ui.js', [
-    ['minify-font-previewer-js'],
-    ['concat-all-js']
-  ]);
+  gulp.watch('./css/styles.css', function () {
+    runSequence(
+      ['minify-font-previewer-css'],
+      ['concat-all-css']
+    );
+  });
+  gulp.watch('./js/ui.js', function () {
+    runSequence(
+      ['minify-font-previewer-js'],
+      ['concat-all-js']
+    );
+  });
 });
