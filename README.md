@@ -27,10 +27,6 @@ To get started:
 
 > `npm install`
 
-> `bower install`
-
-> `bower`
-
 ### Adding fonts and configurations
 
 I recall finding and downloading fonts from [Font Squirrel](https://www.fontsquirrel.com/) because they were free.  I also the recall the [licensing](https://www.fontsquirrel.com/faq#number_one_question) for fonts can be tricky.
