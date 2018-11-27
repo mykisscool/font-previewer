@@ -19,6 +19,6 @@
     "node": ">=8.1.2"
   },
   "scripts": {
-    "postinstall": "bower install && bower"
+    "postinstall": "bower install && gulp"
   }
 }

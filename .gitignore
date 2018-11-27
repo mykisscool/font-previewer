@@ -12,3 +12,4 @@ images/*
 scripts/dump-fonts/*
 !scripts/dump-fonts/.gitignore
 .DS_Store
+.idea

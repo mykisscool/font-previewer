@@ -1,3 +1,5 @@
+##### This repository is no longer updated/supported
+
 ## Introduction
 
 I developed this application way back in 2011 for users to create custom banners and wall decorations using a wide-array of fonts, font colors, background colors, etc. These users; presumably, had the hardware to produce these designs.
@@ -18,6 +20,8 @@ You need:
 
 + PHP5.3+?
 + [ImageMagick](https://www.imagemagick.org/script/index.php) for PHP
++ [Bower](https://bower.io/)
++ [Gulp](https://gulpjs.com/)
 
 To get started:
 
